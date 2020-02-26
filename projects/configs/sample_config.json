@@ -1,0 +1,11 @@
+{
+  "requests_folder": "requests",
+  "results_folder": "results",
+  "results_format": "json",
+  "variables": {
+    "auth_token": "c_nvve0r29FR3au_nbxWT4fYjAbCFSypdrjLydsKYoaCnb9NHIKLVXiEQTfAbXCHDBSfUgz6IfdIGmAjcf3Svw==",
+    "host": "https://eu-central-1-1.aws.cloud2.influxdata.com",
+    "org": "0275c9713c38b20e",
+    "bucket": "2974f770ef1aeca5"
+  }
+}

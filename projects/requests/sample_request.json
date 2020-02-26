@@ -1,0 +1,9 @@
+{
+  "url": "{{host}}/api/v2/write?org={{org}}&bucket={{bucket}}&precision=s",
+  "method": "POST",
+  "headers": {
+    "Authorization": "Token {{auth_token}}",
+    "Content-Type": "text/plain"
+  },
+  "body": "test, device_id={{device_id}} measure={{measure}} {{timestamp}}"
+}

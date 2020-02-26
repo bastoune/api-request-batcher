@@ -1,0 +1,35 @@
+{
+  "name": "api-request-batcher",
+  "version": "1.0.0",
+  "description": "A simple NodeJS project to batch requests to and HTTP endpoint and monitor the result.",
+  "main": "bin/index.ts",
+  "scripts": {
+    "compile": "tsc",
+    "request_batcher": "npm run compile && node dist/index.js",
+    "start": "node bin/index.ts",
+    "echoargs": "node bin/echoargs.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/bastoune/api-request-batcher.git"
+  },
+  "author": "Bastien Sander",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bastoune/api-request-batcher/issues"
+  },
+  "homepage": "https://github.com/bastoune/api-request-batcher#README",
+  "dependencies": {
+    "@types/node": "13.1.4",
+    "colors": "^1.4.0",
+    "fs": "0.0.1-security",
+    "moment": "2.24.0"
+  },
+  "devDependencies": {
+    "chai": "4.2.0",
+    "mocha": "7.0.0",
+    "ts-node": "8.5.4",
+    "typescript": "3.7.4"
+  }
+}
