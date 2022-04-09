@@ -24,7 +24,7 @@
     "@types/node": "13.1.4",
     "colors": "^1.4.0",
     "fs": "0.0.1-security",
-    "moment": "2.24.0"
+    "moment": "2.29.2"
   },
   "devDependencies": {
     "chai": "4.2.0",
